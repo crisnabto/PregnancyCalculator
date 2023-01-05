@@ -36,7 +36,6 @@ function Main() {
 
         const daysToAdd = (weeksPreg * 7) + daysPreg;
         const totalDaysToAdd = 280 - daysToAdd;
-        // const result = new Date();
         today.setDate(today.getDate() + totalDaysToAdd);
         const fullDueDate = getFullDate();
         console.log(today);
