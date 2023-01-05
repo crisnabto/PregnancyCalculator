@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Pregnancy App Due Date Calculator
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
