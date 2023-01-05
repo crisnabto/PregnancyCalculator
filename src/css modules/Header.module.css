@@ -1,0 +1,32 @@
+.headerContainer {
+    background-color: rgb(247, 229, 243);
+    display: flex;
+    justify-content:space-around;
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: auto;
+}
+
+.headerBox {
+    display: flex;
+    justify-content:flex-end;
+    width: 50em;
+    margin-right: 0;
+    /* border: 2px solid red; */
+}
+
+.headerBox h1 {
+    margin-right: 27%;
+    margin-left: 20%;
+    align-self: center;
+    color: rgb(111, 102, 111);
+}
+
+.headerBox button {
+    height: 40px;
+    margin-top: 2.5%;
+    border-radius: 5px;
+    border: 0.5px solid rgba(238 , 174 , 202 , 1);
+    background-color: rgba(255 , 255 , 255 , 0.2);
+    box-shadow: rgba(148 , 187 , 233 , 0.8) 0 1px 4px;
+}

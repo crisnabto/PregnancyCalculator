@@ -1,0 +1,93 @@
+.mainContainer {
+    /* background: radial-gradient(circle , rgba(238 , 174 , 202 , 1) 0% , rgb(244, 241, 241) 100%); */
+    background: rgba(255, 255, 255, 0.2);
+    /* background-color: rgba(182, 145, 145, 0.2); */
+    /* box-shadow: rgba(148 , 187 , 233 , 0.8) 0 1px 4px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-evenly; */
+    /* border: 1px; */
+    /* border: 0.5px solid rgba(238 , 174 , 202 , 0.3); */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 550px;
+    width: 30em;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.mainContainer h2 {
+    align-self: center;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 1em; */
+}
+
+label select {
+    background: rgb(240, 219, 240);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    height: 35px;
+    width: 200px;
+    border: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+label input {
+    background: rgb(240, 219, 240);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    height: 35px;
+    width: 200px;
+    border: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+p {
+    font-size: 20px;
+}
+
+.mainContainer button {
+    width: 13em;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    margin: 60px auto 0 auto;
+    /* margin-bottom: 220px; */
+    height: 40px;
+    /* margin-top: 2.5%; */
+    border-radius: 15px;
+    border: 0.5px solid rgba(238 , 174 , 202 , 1);
+    /* background-color: rgba(255 , 255 , 255 , 0.2); */
+    background: rgb(241, 230, 241);
+    box-shadow: rgba(148 , 187 , 233 , 0.8) 0 1px 4px;
+}
+
+.resultsBox {
+    border-radius: 15px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 20px;
+    background: radial-gradient(circle , rgb(239, 218, 238) 0% , rgb(223, 214, 243) 60%);
+    font-weight: 600;
+    width: 70%;
+    /* margin: 0 auto; */
+    align-self: center;
+    /* align-content: center; */
+    border: 0.5px solid rgba(238 , 174 , 202 , 0.5);
+    box-shadow: rgba(148 , 187 , 233 , 0.8) 0 1px 4px;
+}
+
+.resultsBox p {
+    margin: 10px;
+}
