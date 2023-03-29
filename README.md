@@ -1,7 +1,36 @@
-# Pregnancy App Due Date Calculator
+# Pregnancy App Due Date Calculator :pregnant_woman: :calendar:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a due date calculator, allowing expecting parents to input the date of their last menstrual period and receive an estimated due date for their baby's arrival.
 
+## :wrench:  Setup
+
+Clone the repository:
+
+```
+git clone git@github.com:crisnabto/PregnancyCalculator.git
+```
+
+Install the dependencies:
+
+```
+npm install
+```
+
+Start the application:
+
+```
+npm start
+```
+
+### :envelope_with_arrow: Contact
+
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:crisnabto@gmail.com)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/crisna-bezerra/)
+
+
+
+
+<!--
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +97,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-->
